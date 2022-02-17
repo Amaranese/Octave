@@ -10,7 +10,6 @@
 
 # production
 /build
-/dist
 
 # misc
 .DS_Store
@@ -23,7 +22,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment Variables
+.eslintcache
+debug.log
+
 .env
-.env.build
-.vercel
+.firebase
+.firebaserc
+firebase-debug.log
+firebase.json
